@@ -1,4 +1,4 @@
-## [Exploration by Random Network Distillation](https://arxiv.org/abs/1810.12894) ##
+## [A More Complete Random Network Distillation](https://arxiv.org/abs/1810.12894) ##
 
 Thanks for the work of 
 OpenAI<br/>
