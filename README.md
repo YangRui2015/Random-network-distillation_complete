@@ -1,21 +1,9 @@
-**Status:** Archive (code is provided as-is, no updates expected)
-
 ## [Exploration by Random Network Distillation](https://arxiv.org/abs/1810.12894) ##
 
-
-Yuri Burda*, Harri Edwards*, Amos Storkey, Oleg Klimov<br/>
-&#42;equal contribution
-
+Thanks for the work of 
 OpenAI<br/>
 University of Edinburgh
 
-
-### Installation and Usage
-The following command should train an RND agent on Montezuma's Revenge
-```bash
-python run_atari.py --gamma_ext 0.999
-```
-To use more than one gpu/machine, use MPI (e.g. `mpiexec -n 8 python run_atari.py --num_env 128 --gamma_ext 0.999` should use 1024 parallel environments to collect experience on an 8 gpu machine). 
-
-### [Blog post and videos](https://blog.openai.com/reinforcement-learning-with-prediction-based-rewards/)
-# Random-network-distillation_complete
+I add test and show function to the original codes,
+you can use "python run_atari.py --test True --render True" to show the train results of the models,
+also, you can use "python run_atari.py --save_freq 10" to train a model and set how often to save a model.
